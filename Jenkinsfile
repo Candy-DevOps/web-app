@@ -19,7 +19,7 @@ pipeline {
                 '''
             }
         }
-        stage (Sonaqube Analysis) {
+        stage ("Sonarqube Analysis") {
             environment {
                 ScannerHome = tool 'Sonar'
             }
